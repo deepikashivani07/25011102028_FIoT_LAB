@@ -14,7 +14,9 @@
 
 ### 1. Circuit Diagram
 
-AT89S52 development board configured with four LEDs connected to four GPIO output pins and one push-button switch connected to a GPIO input pin. Circuit diagram attached.
+AT89S52 development board configured with four LEDs connected to four GPIO output pins and one push-button switch connected to a GPIO input pin. 
+
+![Circuit Diagram](circuit.png)
 
 ### 2. Hardware Setup & Operating Modes
 
