@@ -1,0 +1,27 @@
+--cpu=Cortex-M4.fp.sp
+"cat12\startup_stm32f410rx.o"
+"cat12\main.o"
+"cat12\stm32f4xx_it.o"
+"cat12\stm32f4xx_hal_msp.o"
+"cat12\bme280.o"
+"cat12\stm32f4xx_hal_i2c.o"
+"cat12\stm32f4xx_hal_i2c_ex.o"
+"cat12\stm32f4xx_hal_rcc.o"
+"cat12\stm32f4xx_hal_rcc_ex.o"
+"cat12\stm32f4xx_hal_flash.o"
+"cat12\stm32f4xx_hal_flash_ex.o"
+"cat12\stm32f4xx_hal_flash_ramfunc.o"
+"cat12\stm32f4xx_hal_gpio.o"
+"cat12\stm32f4xx_hal_dma_ex.o"
+"cat12\stm32f4xx_hal_dma.o"
+"cat12\stm32f4xx_hal_pwr.o"
+"cat12\stm32f4xx_hal_pwr_ex.o"
+"cat12\stm32f4xx_hal_cortex.o"
+"cat12\stm32f4xx_hal.o"
+"cat12\stm32f4xx_hal_exti.o"
+"cat12\stm32f4xx_hal_uart.o"
+"cat12\system_stm32f4xx.o"
+--strict --scatter "cat12\cat12.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "cat12.map" -o cat12\cat12.axf
