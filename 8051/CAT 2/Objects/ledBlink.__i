@@ -1,0 +1,1 @@
+"ledBlink.c" OPTIMIZE (8,SPEED) BROWSE DEBUG OBJECTEXTEND CODE PRINT(.\Listings\ledBlink.lst) TABS (2) OBJECT(.\Objects\ledBlink.obj)
