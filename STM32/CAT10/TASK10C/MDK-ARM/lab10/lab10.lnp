@@ -1,0 +1,22 @@
+--cpu Cortex-M3
+"lab10\startup_stm32f103xb.o"
+"lab10\main.o"
+"lab10\stm32f1xx_it.o"
+"lab10\stm32f1xx_hal_msp.o"
+"lab10\stm32f1xx_hal_gpio_ex.o"
+"lab10\stm32f1xx_hal_uart.o"
+"lab10\stm32f1xx_hal.o"
+"lab10\stm32f1xx_hal_rcc.o"
+"lab10\stm32f1xx_hal_rcc_ex.o"
+"lab10\stm32f1xx_hal_gpio.o"
+"lab10\stm32f1xx_hal_dma.o"
+"lab10\stm32f1xx_hal_cortex.o"
+"lab10\stm32f1xx_hal_pwr.o"
+"lab10\stm32f1xx_hal_flash.o"
+"lab10\stm32f1xx_hal_flash_ex.o"
+"lab10\stm32f1xx_hal_exti.o"
+"lab10\system_stm32f1xx.o"
+--strict --scatter "lab10\lab10.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "lab10.map" -o lab10\lab10.axf

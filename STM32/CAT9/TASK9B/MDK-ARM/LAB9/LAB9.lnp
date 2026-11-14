@@ -1,0 +1,22 @@
+--cpu Cortex-M3
+"lab9\startup_stm32f103xb.o"
+"lab9\main.o"
+"lab9\stm32f1xx_it.o"
+"lab9\stm32f1xx_hal_msp.o"
+"lab9\stm32f1xx_hal_gpio_ex.o"
+"lab9\stm32f1xx_hal_uart.o"
+"lab9\stm32f1xx_hal.o"
+"lab9\stm32f1xx_hal_rcc.o"
+"lab9\stm32f1xx_hal_rcc_ex.o"
+"lab9\stm32f1xx_hal_gpio.o"
+"lab9\stm32f1xx_hal_dma.o"
+"lab9\stm32f1xx_hal_cortex.o"
+"lab9\stm32f1xx_hal_pwr.o"
+"lab9\stm32f1xx_hal_flash.o"
+"lab9\stm32f1xx_hal_flash_ex.o"
+"lab9\stm32f1xx_hal_exti.o"
+"lab9\system_stm32f1xx.o"
+--strict --scatter "LAB9\LAB9.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "LAB9.map" -o LAB9\LAB9.axf
