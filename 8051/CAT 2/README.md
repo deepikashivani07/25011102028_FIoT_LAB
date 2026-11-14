@@ -16,6 +16,8 @@
 
 AT89S52 development board with an LED connected to Port 1, Pin 0 (P1.0). Circuit diagram attached.
 
+![Circuit Diagram](circuit.png)
+
 ### 2. Hardware Bring-Up Details
 
 | Parameter         | Student Entry                          |
