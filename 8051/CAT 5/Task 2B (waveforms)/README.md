@@ -14,7 +14,9 @@
 
 ### 1. Circuit Diagram
 
-AT89S52 development board configured with an $11.0592\text{ MHz}$ crystal oscillator and a GPIO output pin routed to an oscilloscope probe for frequency and duty-cycle verification. Circuit diagram attached.
+AT89S52 development board configured with an $11.0592\text{ MHz}$ crystal oscillator and a GPIO output pin routed to an oscilloscope probe for frequency and duty-cycle verification.
+
+![Circuit Diagram](circuit.png)
 
 ### 2. Frequency Modes & Waveform Specifications
 
