@@ -14,7 +14,9 @@
 
 ### 1. Circuit Diagram
 
-AT89S52 development board interfaced with a $16\times2$ LCD (HD44780 compatible) configured in 4-bit mode. Control pins (`RS`, `E`) and data pins (`D4`–`D7`) are connected to designated GPIO port pins, with contrast adjusted via a potentiometer. Circuit diagram attached.
+AT89S52 development board interfaced with a $16\times2$ LCD (HD44780 compatible) configured in 4-bit mode. Control pins (`RS`, `E`) and data pins (`D4`–`D7`) are connected to designated GPIO port pins, with contrast adjusted via a potentiometer. 
+
+![Circuit Diagram](circuit.png)
 
 ### 2. Core Logic / Pseudocode
 

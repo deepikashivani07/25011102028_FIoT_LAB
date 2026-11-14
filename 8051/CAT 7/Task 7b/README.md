@@ -14,7 +14,9 @@
 
 ### 1. Circuit Diagram
 
-AT89S52 development board interfaced with a $16\times2$ LCD in 4-bit mode. Connections include control pins (`RS`, `E`) and data bus (`D4`–`D7`) linked to 8051 port pins. Circuit diagram attached.
+AT89S52 development board interfaced with a $16\times2$ LCD in 4-bit mode. Connections include control pins (`RS`, `E`) and data bus (`D4`–`D7`) linked to 8051 port pins. 
+
+![Circuit Diagram](circuit.png)
 
 ### 2. Core Logic / Pseudocode
 
