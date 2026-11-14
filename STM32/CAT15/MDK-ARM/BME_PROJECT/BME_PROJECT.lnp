@@ -1,0 +1,28 @@
+--cpu=Cortex-M4.fp.sp
+"bme_project\startup_stm32f401xe.o"
+"bme_project\bme280.o"
+"bme_project\esplib.o"
+"bme_project\main.o"
+"bme_project\stm32f4xx_it.o"
+"bme_project\stm32f4xx_hal_msp.o"
+"bme_project\stm32f4xx_hal_i2c.o"
+"bme_project\stm32f4xx_hal_i2c_ex.o"
+"bme_project\stm32f4xx_hal_rcc.o"
+"bme_project\stm32f4xx_hal_rcc_ex.o"
+"bme_project\stm32f4xx_hal_flash.o"
+"bme_project\stm32f4xx_hal_flash_ex.o"
+"bme_project\stm32f4xx_hal_flash_ramfunc.o"
+"bme_project\stm32f4xx_hal_gpio.o"
+"bme_project\stm32f4xx_hal_dma_ex.o"
+"bme_project\stm32f4xx_hal_dma.o"
+"bme_project\stm32f4xx_hal_pwr.o"
+"bme_project\stm32f4xx_hal_pwr_ex.o"
+"bme_project\stm32f4xx_hal_cortex.o"
+"bme_project\stm32f4xx_hal.o"
+"bme_project\stm32f4xx_hal_exti.o"
+"bme_project\stm32f4xx_hal_uart.o"
+"bme_project\system_stm32f4xx.o"
+--strict --scatter "BME_PROJECT\BME_PROJECT.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "BME_PROJECT.map" -o BME_PROJECT\BME_PROJECT.axf
